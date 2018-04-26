@@ -73,7 +73,7 @@ $(document).ready(function() {
             top: "400px",
         }, 2500, function() {
             $("#gummies").css({
-                top: '180px'
+                top: '120px'
             })
             if ($("#coneImage").position().left === 330)
                 $("#coneImage").attr("src", "Vanilla-Cone-Gummy-Bears.png");
@@ -85,7 +85,7 @@ $(document).ready(function() {
             top: "400px",
         }, 2500, function() {
             $("#sprinkles").css({
-                top: '180px'
+                top: '120px'
             })
             if ($("#coneImage").position().left === 530)
                 $("#coneImage").attr("src", "Vanilla-Cone-Sprinkles.png");
@@ -98,7 +98,7 @@ $(document).ready(function() {
             top: "400px",
         }, 2500, function() {
             $("#chocolate").css({
-                top: '180px'
+                top: '120px'
             })
             if ($("#coneImage").position().left === 730)
                 $("#coneImage").attr("src", "Vanilla-Cone-Chocolate-Chip.png");
@@ -111,12 +111,11 @@ $(document).ready(function() {
             top: "400px",
         }, 2500, function() {
             $("#mm").css({
-                top: '195px'
+                top: '120px'
             })
             if ($("#coneImage").position().left === 925)
                 $("#coneImage").attr("src", "Vanilla-Cone-Reeses-Pieces.png");
         });
     })
-        
         
 }); 
