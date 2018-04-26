@@ -1,15 +1,15 @@
 $(document).ready(function() {
    alert("Welcome to Magicecream! The game of magically applied toppings onto a soft serve ice cream cone.");
      if (confirm("Would you like to play?")) {
-      alert("Press the Left and Right arrow keys to control the Ice Cream Cone's Movement, and click on the buttons on the left panel to release the corresponding toppings!");
+      alert("Press the Left and Right arrow keys to control the Ice Cream Cone's movement. Click on the buttons on the left panel to release the corresponding toppings!");
    }
      else{
       if(confirm("Are you sure?"))
        {
-        alert("You're sure that you want to play? Great!");
+        alert("You're sure that you want to play?");
        }
      else{
-        alert("Sweet! Control the ice cream cone using the Left and Right arrow keys, and click on the buttons on the left panel to unleash the corresponding toppings.");
+        alert("Sweet! Control the Ice Cream Cone's movement using the Left and Right arrow keys Click on the buttons on the left panel to unleash the corresponding toppings!");
        }
     }
     
