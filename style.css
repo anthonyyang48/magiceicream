@@ -2,7 +2,7 @@ body {
     background-image: url("https://hdwallsource.com/img/2014/7/beautiful-beach-background-17581-18141-hd-wallpapers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -10,23 +10,16 @@ body {
     height: 210px;
     width: auto;
     position: fixed;
-    bottom: 10px;
+    bottom: 40px;
     z-index: 2;
-}
-
-#table {
-    height: 20px;
-    width: 50%;
-    bottom: 60px;
-    position: relative;
-    right: 30%;
 }
 
 #gummies {
     position: absolute;
     left: 300px;
     width: 140px;
-    bottom: 300px;
+    height: 140px;
+    bottom: 400px;
     z-index: 2;
 }
 
@@ -34,7 +27,8 @@ body {
     position: absolute;
     left: 300px;
     width: 140px;
-    bottom: 300px;
+    height: 140px;
+    bottom: 400px;
     z-index: 2;
     background-color: red;
     border: 4px solid;
@@ -45,7 +39,7 @@ body {
     width: 140px;
     height: 140px;
     left: 500px;
-    bottom: 300px;
+    bottom: 400px;
     z-index: 2;
 }
 
@@ -54,7 +48,7 @@ body {
     height:140px;
     position: absolute;
     left: 500px;
-    bottom: 300px;
+    bottom: 400px;
     z-index: 2;
     background-color: blue;
     border: 4px solid;
@@ -64,7 +58,7 @@ body {
     width: 140px;
     height: 140px;
     position: absolute;
-    bottom: 300px;
+    bottom: 400px;
     left: 700px;
     z-index: 2;
 }
@@ -73,7 +67,7 @@ body {
     width: 140px;
     height: 140px;
     position: absolute;
-    bottom: 300px;
+    bottom: 400px;
     left: 700px;
     z-index: 2;
     background-color: green;
@@ -85,7 +79,7 @@ body {
     left: 900px;
     width: 140px;
     height: 140px;
-    bottom: 300px;
+    bottom: 400px;
     z-index: 2;
 }
 
@@ -94,16 +88,10 @@ body {
     left:900px;
     width:140px;
     height: 140px;
-    bottom: 300px;
+    bottom: 400px;
     z-index: 2;
     background-color: yellow;
     border: 4px solid;
-}
-
-#snek{
-    width: 150px;
-    height:150px;
-    position:absolute;
 }
 
 #cone {
@@ -123,7 +111,6 @@ position:relative;
     font-size: 40px;
     text-align: center;
     background: transparent;
-    box-sizing: border-box;
     position:fixed;
     margin-left:40%;
     font-family: "Comic Sans";
@@ -140,57 +127,37 @@ position:relative;
 
 
 @-webkit-keyframes colorchange {
-      0% {
-        
+    0% {
         color: blue;
       }
-      
-      10% {
-        
+    10% {
         color: #8e44ad;
       }
-      
-      20% {
-        
+    20% {
         color: #1abc9c;
       }
-      
-      30% {
-        
+    30% {
         color: #d35400;
       }
-      
-      40% {
-        
+    40% {
         color: blue;
       }
-      
-      50% {
-        
+    50% {
         color: #34495e;
       }
-      
       60% {
-        
         color: blue;
       }
-      
       70% {
-        
         color: #2980b9;
       }
       80% {
-     
         color: #f1c40f;
       }
-      
       90% {
-     
         color: #2980b9;
       }
-      
       100% {
-        
         color: pink;
       }
     }
@@ -230,7 +197,8 @@ position:relative;
     left: 36px;
 }
 
-#gbicecream {
-    height: 50px;
-    width: 50px;
+#gif {
+   display: grid;
+   max-height: 100vh;
+   margin: auto;
 }

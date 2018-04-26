@@ -13,7 +13,7 @@ $(document).ready(function() {
    //     }
     //}
     
-       var keyLeft = false;
+    var keyLeft = false;
     var keyRight = false;
     var x = 500;
     var y = 0;
@@ -22,7 +22,6 @@ $(document).ready(function() {
     $(document).keydown(function(event) {
             if ((event.which == 37) && (countL == 0) && (countR == 0)) { //<0,0> -> <1,0>
                 keyLeft = true;
-                //       setLeftX(x);
                 $("#cone").css("left", "530px"); //330 = L
                 countL++;
             }
@@ -61,10 +60,6 @@ $(document).ready(function() {
                 countR--;
                 $("#cone").css("left", "630px"); //645 = middle
             }
-            /*else if(event.which == 40) //for setting the middle position
-            {
-            $("#cone").css("left", "645px")
-            }*/
             else if ((event.which != 37) && (event.which != 39) && (event.which != 40)) {
                 alert("Try using the left or right key!");
                 keyLeft = false;
@@ -72,64 +67,56 @@ $(document).ready(function() {
             }
         })
         
-        
     
     $("#button1").click(function() {
         $("#gummies").animate({
-            top: "310px",
+            top: "400px",
         }, 2500, function() {
             $("#gummies").css({
-                top: '123px'
+                top: '180px'
             })
             if ($("#coneImage").position().left === 330)
-            //        window.location = "icecream1.html"
-                $("#coneImage").attr("src", "project imgs/Vanilla-Cone-Gummy-Bears.png");
+                $("#coneImage").attr("src", "Vanilla-Cone-Gummy-Bears.png");
         });
     })
 
     $("#button2").click(function() {
         $("#sprinkles").animate({
-            top: "310px",
+            top: "400px",
         }, 2500, function() {
             $("#sprinkles").css({
-                top: '152px'
+                top: '180px'
             })
             if ($("#coneImage").position().left === 530)
-            //     window.location = "icecream2.html"
-                $("#coneImage").attr("src", "project imgs/Vanilla-Cone-Sprinkles.png");
-
+                $("#coneImage").attr("src", "Vanilla-Cone-Sprinkles.png");
+            
         });
     })
 
     $("#button3").click(function() {
         $("#chocolate").animate({
-            top: "310px",
+            top: "400px",
         }, 2500, function() {
             $("#chocolate").css({
-                top: '123px'
+                top: '180px'
             })
             if ($("#coneImage").position().left === 730)
-            //       window.location = "icecream3.html"
-                $("#coneImage").attr("src", "project imgs/Vanilla-Cone-Chocolate-Chip.png");
+                $("#coneImage").attr("src", "Vanilla-Cone-Chocolate-Chip.png");
 
         });
     })
 
     $("#button4").click(function() {
         $("#mm").animate({
-            top: "310px",
+            top: "400px",
         }, 2500, function() {
             $("#mm").css({
-                top: '123px'
+                top: '195px'
             })
             if ($("#coneImage").position().left === 925)
-            //            window.location = "icecream4.html"
-                $("#coneImage").attr("src", "project imgs/Vanilla-Cone-Reeses-Pieces.png");
+                $("#coneImage").attr("src", "Vanilla-Cone-Reeses-Pieces.png");
         });
     })
-
-
-    //**Everything below this line is the code for Key Movement (Connected to the Cone)
- 
+        
         
 }); 
