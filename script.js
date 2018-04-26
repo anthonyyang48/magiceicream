@@ -9,7 +9,7 @@ $(document).ready(function() {
         alert("You're sure that you want to play? Great!");
        }
      else{
-        alert("Sweet! \n Control the ice cream cone using the Left and Right arrow keys, and click on the buttons on the left panel to unleash the corresponding toppings.");
+        alert("Sweet! Control the ice cream cone using the Left and Right arrow keys, and click on the buttons on the left panel to unleash the corresponding toppings.");
        }
     }
     
